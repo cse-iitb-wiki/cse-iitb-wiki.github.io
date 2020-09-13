@@ -79,3 +79,12 @@ Upload your image to [https://postimg.cc](https://postimg.cc) . They provide cod
 ```md
 [![Alt-text for the image](https://i.postimg.cc/gkJxG9c4/Screenshot-2020-09-13-cse-iitb-wiki-cse-iitb-wiki-github-io.png)](https://postimg.cc/BtrSCVK1)
 ```
+
+## Adding Table of Contents
+
+One may add a TOC by adding the following code snippet in the post. The snippet must be placed where you want the TOC to appear. [Ref](http://www.seanbuscay.com/blog/jekyll-toc-markdown/)
+
+```
+* TOC
+{:toc}
+```
