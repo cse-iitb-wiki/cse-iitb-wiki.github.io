@@ -26,9 +26,9 @@ Edit the markdown file corresponding to a post. For example, to edit the post [C
 _posts/2020-09-13-cc-facilities.md
 ```
 
-Pages can be edited on github itself - you don't need to install git. Look for "Add File" while browsing the `_posts/` folder. For example:
+Pages can be edited on github itself. Look for the edit button when browsing the file on github repository:
 
-![Screenshot-2020-09-13-cse-iitb-wiki-cse-iitb-wiki-github-io.png](https://postimg.cc/BtrSCVK1)
+[![Screenshot-2020-09-13-cse-iitb-wiki-cse-iitb-wiki-github-io-2.png](https://i.postimg.cc/fRv2h086/Screenshot-2020-09-13-cse-iitb-wiki-cse-iitb-wiki-github-io-2.png)](https://postimg.cc/cvrMR6ym)
 
 # Creating a post
 
@@ -40,6 +40,10 @@ This will appear at the following URL:
 ```
 https://cse-iitb-wiki.github.io/post-title
 ```
+
+Pages can be created on github itself - you don't need to install git. Look for "Add File" while browsing the `_posts/` folder. For example:
+
+[![Screenshot-2020-09-13-cse-iitb-wiki-cse-iitb-wiki-github-io.png](https://i.postimg.cc/gkJxG9c4/Screenshot-2020-09-13-cse-iitb-wiki-cse-iitb-wiki-github-io.png)](https://postimg.cc/BtrSCVK1)
 
 # Creating a page
 Same as creating a post, except it must be added to `_pages/` folder.
