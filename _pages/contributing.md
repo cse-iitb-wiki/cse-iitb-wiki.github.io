@@ -4,11 +4,11 @@ title: Contribution Guide
 permalink: /contributing/
 ---
 
-Edits to this wiki can be made by modifying the source .md files in the following github repo: https://github.com/cse-iitb-wiki/cse-iitb-wiki.github.io/ . If you do not have access, please message in the "IITB CSE PhDs" WhatsApp group. You may either create a new branch for your edits or push directly to `master` in case of small changes. If you create a new branch, then you must open a pull request and merge the branch to master in order for your changes to reflect on the site.
+Edits to this wiki can be made by modifying the source .md files in the following github repo: [https://github.com/cse-iitb-wiki/cse-iitb-wiki.github.io/](https://github.com/cse-iitb-wiki/cse-iitb-wiki.github.io/) . If you do not have access, please message in the "IITB CSE PhDs" WhatsApp group. You may either create a new branch for your edits or push directly to `master` in case of small changes. If you create a new branch, then you must open a pull request and merge the branch to master in order for your changes to reflect on the site.
 
 
 ## Folder Layout
-All content is in markdown (.md) files. Following is a useful resource for markdown: https://guides.github.com/features/mastering-markdown/
+All content is in markdown (.md) files. Following is a useful resource for markdown: [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
 
 Following are useful folders:
 * \_posts/ : contains all post .md files
@@ -18,7 +18,7 @@ Following are useful folders:
 
 **Pages** will generally contain meta information about the wiki. The landing page will contain helpful links to get started. 
 
-Please read this short guide for creating and managing posts: https://jekyllrb.com/docs/posts/ . Some of that information is also provided below to get you started.
+Please read this short guide for creating and managing posts: [https://jekyllrb.com/docs/posts/](https://jekyllrb.com/docs/posts/) . Some of that information is also provided below to get you started.
 
 ## Editing a post
 
@@ -68,7 +68,7 @@ In order to use math in a  -->
 
 ## Adding images/screenshots
 
-Upload your image to https://postimg.cc . They provide code to embed the image in various formats. Copy the code for Github Markdown (4th in the list) and paste to your .md file. For example,
+Upload your image to [https://postimg.cc](https://postimg.cc) . They provide code to embed the image in various formats. Copy the code for Github Markdown (4th in the list) and paste to your .md file. For example,
 
 ```md
 [![Alt-text for the image](https://i.postimg.cc/gkJxG9c4/Screenshot-2020-09-13-cse-iitb-wiki-cse-iitb-wiki-github-io.png)](https://postimg.cc/BtrSCVK1)
