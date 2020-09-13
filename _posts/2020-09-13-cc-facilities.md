@@ -3,7 +3,6 @@ layout: post
 title: State of High Performance Computing
 categories: [GPU, Compute]
 author: Vihari Piratla, Diptesh Kanojia, Sabyasachi Ghosh
-path: 2020-09-13-cc-facilities.md
 ---
 
 ## GPUs
