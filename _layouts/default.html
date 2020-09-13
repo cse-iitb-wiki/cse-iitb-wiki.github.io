@@ -5,7 +5,7 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <!-- Load KaTeX (https://varunagrawal.github.io/2018/03/27/latex-jekyll/) -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
+    <script src="https//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
 
     <!-- Added for mathjax support. Script loaded asynchronously.
     https://stackoverflow.com/questions/10987992/using-mathjax-with-jekyll
@@ -73,6 +73,7 @@
   $("script[type='math/tex']").replaceWith(
     function(){
       var tex = $(this).text();
+      console.log("replacing " + tex);
       return katex.renderToString(tex, {displayMode: false});
   });
 
