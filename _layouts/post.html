@@ -27,6 +27,13 @@ layout: default
     {{ content }}
   </div>
 
+  <a href=https://github.com/cse-iitb-wiki/cse-iitb-wiki.github.io/blob/master/_posts/{{ page.path }} class="gitbutton pill">
+      <span class="icon medium">
+        {% include git-logo.html %}
+      </span>
+      Edit on GitHub!
+  </a>
+
   <div>
     <p><span class="share-box">Share:</span> <a href="http://twitter.com/share?text={{ page.title }}&url={{site.url}}{{page.url}}" target="_blank">Twitter</a>, <a href="https://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}" target="_blank">Facebook</a></p>
   </div>
