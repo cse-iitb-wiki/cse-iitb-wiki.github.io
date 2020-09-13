@@ -63,6 +63,10 @@ Renders as:
 
 $$x^2 + y^2 = 42$$
 
+More examples of latex: $$\pi^2$$, 
+
+\(2+3^2\)
+
 <!-- Github by default does not support latex/math. However, there is a workaround as mentioned in [this stackoverflow answer](https://stackoverflow.com/a/53981118/). 
 In order to use math in a  -->
 
