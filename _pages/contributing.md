@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Getting started with Reverie
+title: Contribution Guide
 permalink: /contributing/
 ---
 

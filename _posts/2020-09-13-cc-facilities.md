@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: State of High Performance Computing
 categories: [GPU, Compute]
 author: Vihari Piratla, Diptesh Kanojia
 ---
