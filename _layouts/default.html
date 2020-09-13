@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>	
   <head>
+    <!-- Load KaTeX (https://varunagrawal.github.io/2018/03/27/latex-jekyll/) -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
+
   <!-- Added for mathjax support. Script loaded asynchronously.
   https://stackoverflow.com/questions/10987992/using-mathjax-with-jekyll
   https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup
   -->	
-  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+  <!--<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>-->
 	  
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
     {% seo title=false %}
@@ -58,7 +62,23 @@
         </div>
       </div>
     </div>
-
+  
     {% include analytics.html %}
   </body>
+	
+  <!-- Parse the Latex divs with Katex-->
+<script type="text/javascript">
+  $("script[type='math/tex']").replaceWith(
+    function(){
+      var tex = $(this).text();
+      return katex.renderToString(tex, {displayMode: false});
+  });
+
+  $("script[type='math/tex; mode=display']").replaceWith(
+    function(){
+      var tex = $(this).text();
+      return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
+  });
+</script>
+
 </html>
