@@ -8,7 +8,9 @@ Edits to this wiki can be made by modifying the source .md files in the followin
 
 
 ## Folder Layout
-All content is in markdown (.md) files. Following are useful folders:
+All content is in markdown (.md) files. Following is a useful resource for markdown: https://guides.github.com/features/mastering-markdown/
+
+Following are useful folders:
 * \_posts/ : contains all post .md files
 * \_pages/ : contains all page .md files
 
