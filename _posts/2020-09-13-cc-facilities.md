@@ -1,6 +1,6 @@
 ---
 layout: post
-title: State of High Performance Computing
+title: State of High Performance Computing at IITB
 categories: [GPU, Compute]
 author: Vihari Piratla, Diptesh Kanojia
 ---
