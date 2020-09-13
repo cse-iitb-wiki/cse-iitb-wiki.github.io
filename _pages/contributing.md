@@ -7,7 +7,7 @@ permalink: /contributing/
 Edits to this wiki can be made by modifying the source .md files in the following github repo: https://github.com/cse-iitb-wiki/cse-iitb-wiki.github.io/ . If you do not have access, please message in the "IITB CSE PhDs" WhatsApp group. You may either create a new branch for your edits or push directly to `master` in case of small changes. If you create a new branch, then you must open a pull request and merge the branch to master in order for your changes to reflect on the site.
 
 
-# Folder Layout
+## Folder Layout
 All content is in markdown (.md) files. Following are useful folders:
 * \_posts/ : contains all post .md files
 * \_pages/ : contains all page .md files
