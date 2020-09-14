@@ -12,7 +12,7 @@ author: PhDs at CSE@IITB
 description: All things PhD at CSE@IITB
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/penguin_64x64.ico
+avatar: /images/penguin_64x64.ico
 
 #
 # Flags below are optional
