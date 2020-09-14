@@ -6,11 +6,13 @@ author: Vihari Piratla, Diptesh Kanojia, Sabyasachi Ghosh
 categories: [CPUs, Software Lab, HPC, SysAdmin, Parallel]
 ---
 
+CC hosts around 100 low-end SL machines. Since they are conected to the common NTFS server, it is easy to setup distributed compute on the shared memory and several machines.<br/>
+
+
+
 ## Distributed Computing with CPU  
 
 ** POST UNDER CONSTRUCTION **
-
-CC hosts around 100 low-end SL machines. Since they are conected to the common NTFS server, it is easy to setup distributed compute on the shared memory and several machines.<br/>
 
 If your task can be parallelized on CPUs, you should consider this. You may create an ssh cluster with the sl2 lab machines. Hostnames of sl2 machines are `sl2-<num>.cse.iitb.ac.in` e.g. `sl2-58.cse.iitb.ac.in` where `num` spans the range `[1-110]` almost wholly. 
 
