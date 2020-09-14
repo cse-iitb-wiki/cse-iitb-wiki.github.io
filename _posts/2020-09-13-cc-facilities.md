@@ -24,9 +24,9 @@ Based on our experience, we used the following directives among the lab members 
 
 These directives are just suggestions based on past experience. You can, of course, make you own rules!<br/>
 
-You should submit your job through PBS. The typical queue wait time for your process is around **12-24 hrs**. There is an upper limit to how long your process can run i.e., 120 hours. The number of parallel jobs that can be started at a point of time by a single account (faculty) is also limited to five. If you need to get that limit increased, you should try and show that the limit allowed to you is not sufficient and discuss the matter with Mr. Trirag who sits in the CC office (Spacetime) on ground floor, CC building.
-
 {% include pullquote.html quote="It is not straight-forward to use PBS to submit jobs and working with HPC entails a steep learning curve. " %}
+
+You should submit your job through PBS. The typical queue wait time for your process is around **12-24 hrs**. There is an upper limit to how long your process can run i.e., 120 hours. The number of parallel jobs that can be started at a point of time by a single account (faculty) is also limited to five. If you need to get that limit increased, you should try and show that the limit allowed to you is not sufficient and discuss the matter with Mr. Trirag who sits in the CC office (Spacetime) on ground floor, CC building.
 
 You need to know available software, libraries, debugging, MPI threads, code changes, arch., network adaptations etc. The provided manuals are no match for the needed support. A sample job script is shown below:
 
