@@ -114,8 +114,12 @@ One may add a TOC by adding the following code snippet in the post. The snippet 
 # What
 
 We encourage any tips and tricks, advice, whether technical or non-technical, which may be **helpful to CSE PhD students at IITB**.
-The most pressing issues on which we need a knowledge base are things very specific to PhD CSE IITB.
-Some examples of technical issues are: how to use lab infrastructure to parallelize work, how to use spacetime cluster, how to set up your personal webpage on [https://cse.iitb.ac.in](https://cse.iitb.ac.in), etc
-Some examples of non-technical issues are - what courses to take (esp in the first two years), what is the process for confirming an advisor, what forms need to be filled for seminar, etc.
-Technical issues not specific to IITB or CSE are also welcome. Some examples are: how to have free access to GPUs (e.g. colab), how to do some particular thing in tensorflow, how to do something specific in Latex etc.
-Opinions, technical or non-technical, which are relevant and helpful to IITB CSE PhD students, are welcome. Some examples of technical opinions are: how to lay out your code, how to layout a paper etc. Some examples of non-technical opinions are: how to manage a healthy life at IITB CSE, how to pace your phd, what to do in each year, what books to read, etc.
+
+* The most pressing issues on which we need a knowledge base are things very specific to PhD CSE IITB.
+  * Some examples of technical issues are: how to use lab infrastructure to parallelize work, how to use spacetime cluster, how to set up your personal webpage on [https://cse.iitb.ac.in](https://cse.iitb.ac.in), etc
+  * Some examples of non-technical issues are - what courses to take (esp in the first two years), what is the process for confirming an advisor, what forms need to be filled for seminar, etc.
+* Technical issues not specific to IITB or CSE are also welcome.
+  * Some examples are: how to have free access to GPUs (e.g. colab), how to do some particular thing in tensorflow, how to do something specific in Latex etc.
+* Opinions, technical or non-technical, which are relevant and helpful to IITB CSE PhD students, are welcome. 
+  * Some examples of technical opinions are: how to lay out your code, how to layout a paper etc.
+  * Some examples of non-technical opinions are: how to manage a healthy life at IITB CSE, how to pace your phd, what to do in each year, what books to read, etc.
