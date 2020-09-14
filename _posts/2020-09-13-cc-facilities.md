@@ -1,6 +1,6 @@
 ---
 layout: post
-title: State of High Performance Computing
+title: Using High Performance Computing Cluster
 categories: [GPU, Compute]
 author: Vihari Piratla, Diptesh Kanojia, Sabyasachi Ghosh
 ---
@@ -17,13 +17,13 @@ They can write to spacetime@iitb.ac.in to get an account created.
 Each faculty gets once account which means all the supervised students will possibly end up using the same (shared) credentials to run experiments.
 Based on our experience, we used the following directives among the lab members to ensure fair usage.
 
-Every job should have a student identifier in the job name.
-There must be an upper-cap on the jobs per student.
-Each student must create their own directory into the faculty login accounts provided and all operations/logs must be stored in that directory only.
-Ensure that each job execution script contains exactly one **aprun** command.
-There is also a feature on SpaceTime which limits the execution time per job, nne must also think about using it for round-robin waiting jobs.
+Every job should have a student identifier in the job name.<br/>
+There must be an upper-cap on the jobs per student.<br/>
+Each student must create their own directory into the faculty login accounts provided and all operations/logs must be stored in that directory only.<br/>
+Ensure that each job execution script contains exactly one **aprun** command.<br/>
+There is also a feature on SpaceTime which limits the execution time per job, nne must also think about using it for round-robin waiting jobs.<br/>
 
-These above directives are just suggestions based on past experience.
+These above directives are just suggestions based on past experience. You can, of course, make you own rules!<br/>
 
 You should submit your job through PBS. The typical queue wait time for your process is around **12-24 hrs**. There is also an upper limit to how long your process can run (do not know what). The number of parallel jobs that can be started at a point of time by a single account (faculty) is also limited to five. If you need to get that limit increased, you should try and show that the limit allowed to you is not sufficient and discuss the matter with Mr. Trirag who sits in the CC office (Spacetime) on ground floor, CC building.
 
