@@ -61,7 +61,3 @@ Submitting jobs to a server through PBS can be taxing especially if you are a be
 The **Dask library** for distributed computing in python provides a [PBS backend](https://jobqueue.dask.org/en/latest/generated/dask_jobqueue.PBSCluster.html). It should allow you to transparently run jobs on PBS, without worrying too much about the internal details. It also supports other backends, such as threads, processes, and SSH cluster. 
 
 Similar support is available for Julia using the [Distributed](https://docs.julialang.org/en/v1/stdlib/Distributed/) library. 
-
-## Distributed Computing with CPU  
-CC hosts around 100 low-end SL machines. Since they are conected to the common NTFS server, it is easy to setup distributed compute on the shared memory and several machines.  
-If your task can be parallelized on CPUs, you should consider this. You may create an ssh cluster with the sl2 lab machines. Hostnames of sl2 machines are `sl2-<num>.cse.iitb.ac.in` e.g. `sl2-58.cse.iitb.ac.in` where `num` spans the range `[1-110]` almost wholly. 
