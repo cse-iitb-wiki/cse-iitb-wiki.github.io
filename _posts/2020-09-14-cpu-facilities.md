@@ -3,7 +3,7 @@ layout: post
 title: Distributed Process with Software Lab Machines
 categories: [CPU, Compute, Distributed]
 author: Vihari Piratla, Diptesh Kanojia, Sabyasachi Ghosh
-categories: [CPUs, SpaceTime, HPC, SysAdmin, Parallel]
+categories: [CPUs, Software Lab, HPC, SysAdmin, Parallel]
 ---
 
 ## Distributed Computing with CPU  
