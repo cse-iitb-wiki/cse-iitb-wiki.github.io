@@ -15,7 +15,7 @@ In `lynx`, press `g` and enter `internet.iitb.ac.in`. You can navigate the page 
 Enter your username and password and submit, like you'll do on a GUI-based browser.
 Or, use the following python3 script:
 
-```
+```python
 #!/usr/bin/python3
 
 import requests
